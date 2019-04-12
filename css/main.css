@@ -78,7 +78,7 @@ body {
     overflow: hidden;
     z-index: 0;
     margin-top: 10%;
-    font-family: 'Orbitron', sans-serif;
+    
   }
   
   ul.sidenav a {
@@ -96,7 +96,8 @@ body {
     color: #bfc61f;
     transform: scale(1.2);
   }
-  
+ 
+   
   div.content {
     margin-left: 5%;
     margin-right: 5%;
@@ -104,9 +105,10 @@ body {
     margin-bottom: 5%;
     padding: 10px 10px;
     height: auto;
-    position: relative;
-    
+    position: relative;  
+    text-align: center;
   }
+
   @media screen and (max-width: 900px) {
     ul.sidenav {
       width: 100%;
@@ -143,12 +145,13 @@ body {
     border-radius: 7px 7px 7px 7px;
   }
 
+ 
+
   .projects-container {
     float: right;
     width: 85%;
     margin-top: 30px;
     margin-right: 15px;
-    
     color: #5b5b5b;
     background: #f2f2f2;
     -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
@@ -159,18 +162,14 @@ body {
   }
 
   .contact-container {
-    float: right;
-    width: 85%; 
-    margin-top: 30px;
-    margin-right: 15px;
-    margin-bottom: 80px;
-    color: #5b5b5b;
-    background: #f2f2f2;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-    box-shadow: 0px 0px 20px #3d5a2d;
-    border: 1px solid #3d5a2d;
-    border-radius: 7px 7px 7px 7px;
+    
+    width: 100%;
+    margin-top: 10px;
+    margin-right: -20%;
+    margin-bottom: 20px;
+    color: #3d5a2d;
+    display: flex;
+    justify-content: center;
   
   }
   footer {
@@ -203,24 +202,7 @@ body {
     transform: scale(1.2);
     transition: transform .2s;
    }
-  
-  h2 {
-    font-size: 
-    text-decoration: none;
-    
-  }
-
-
-  .flower-image {
-    background-image: url("../img/flowers.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
-    opacity: 0.3;
-    position: left;
-    width: 15%;
-    bottom: 0;
-    left: 0;
-  }
+ 
 
   ::-webkit-scrollbar {
     width: 20px;
@@ -300,4 +282,19 @@ body {
   .column {
     width: 100%;
   }
+}
+
+.left {
+  float: left;
+}
+.rigth {
+  float: right;
+}
+
+.skills-icons {
+  opacity: 0.8;
+  max-width: 90px;
+  max-height: 90px;
+  margin-right: 15px;
+  margin-top: 25px;
 }
